@@ -54,6 +54,7 @@ class QuoteItem(Base):
 Base.metadata.create_all(bind=engine)
 
 # --- Sample data seeding ---
+@app.get("/seed")
 def seed_db():
     session = SessionLocal()
     if session.query(Product).first():
