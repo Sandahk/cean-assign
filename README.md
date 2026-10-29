@@ -1,7 +1,12 @@
-# Cean Tech Interview – Quote Manager
+# Quote Manager – FastAPI + React/TypeScript
 
-This project is a minimal full-stack "Quote Manager" for sales reps to build quotes for ACME Inc.  
-It uses **FastAPI** (Python) for the backend, **Postgres** as database (via Docker Compose), and a minimal **React + Vite + TypeScript** frontend.
+A minimal full-stack "Quote Manager" that lets sales reps build quotes for a fictional company (ACME Inc.), including multi-colour products and kits that expand into their components.
+
+- **Backend:** FastAPI (Python) with PostgreSQL, run via Docker Compose
+- **Frontend:** React + Vite + TypeScript
+- **Extras:** a Python script that simulates the frontend against the API
+
+> Built as a take-home technical exercise. The focus is on a clean API, data model and kit/colour logic; the UI is intentionally minimal.
 
 ---
 
@@ -10,8 +15,8 @@ It uses **FastAPI** (Python) for the backend, **Postgres** as database (via Dock
 ### 1. Clone the Repo
 
 ```bash
-git clone <your-repo-url>
-cd <repo-root>
+git clone https://github.com/Sandahk/cean-assign.git
+cd cean-assign
 ```
 
 ### 2. Run Backend & Database (Docker Compose)
